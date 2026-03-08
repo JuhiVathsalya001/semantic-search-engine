@@ -4,7 +4,6 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 from semantic_cache import SemanticCache  
-
 cache = SemanticCache(threshold=0.85, max_size=100)
 
 with open("data/embeddings_data.pkl", "rb") as f:
