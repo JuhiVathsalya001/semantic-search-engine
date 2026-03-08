@@ -9,14 +9,14 @@ This project implements a ***semantic search engine*** over a document corpus us
 
 ## Folder Structure
 .
-├── data/
-│   ├── embeddings_data.pkl   # Precomputed document embeddings & documents
-    └── faiss_index.bin # FAISS index of embeddings
-├── semantic_cache.py       # Semantic cache implementation
-├── app.py                # FastAPI application
-├── search.py     # Search logic
-├── requirements.txt         # Python dependencies
-└── README.md
+├── data/  
+│   ├── embeddings_data.pkl   # Precomputed document embeddings & documents  
+    └── faiss_index.bin # FAISS index of embeddings  
+├── semantic_cache.py       # Semantic cache implementation  
+├── app.py                # FastAPI application  
+├── search.py     # Search logic  
+├── requirements.txt         # Python dependencies  
+└── README.md  
 
 ## Setup
 1. Create a virtual environment  
