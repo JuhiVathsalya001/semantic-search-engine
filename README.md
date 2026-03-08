@@ -1,13 +1,13 @@
-##Overview:##
+## Overview:
 This project implements a ***semantic search engine*** over a document corpus using sentence embeddings, FAISS for similarity search, and a semantic cache with LRU eviction. The API is served with FastAPI, providing endpoints to query the search engine and manage the cache.
 
-##Key features:
-1.Query embedding using SentenceTransformer (all-MiniLM-L6-v2)
-2.Top-k similar document retrieval with FAISS
-3.Semantic cache with cosine similarity threshold and LRU eviction
-4.Cache statistics and clearing functionality
+## Key features:
+1.Query embedding using SentenceTransformer (all-MiniLM-L6-v2)  
+2.Top-k similar document retrieval with FAISS  
+3.Semantic cache with cosine similarity threshold and LRU eviction  
+4.Cache statistics and clearing functionality  
 
-##Folder Structure
+## Folder Structure
 .
 ├── data/
 │   ├── embeddings_data.pkl   # Precomputed document embeddings & documents
@@ -18,7 +18,7 @@ This project implements a ***semantic search engine*** over a document corpus us
 ├── requirements.txt         # Python dependencies
 └── README.md
 
-##Setup
+## Setup
 1. Create a virtual environment  
 python -m venv venv  
 source venv/bin/activate      # Linux/macOS  
