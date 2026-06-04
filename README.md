@@ -1,5 +1,6 @@
 ## Overview:
-This project implements a ***semantic search engine*** over a document corpus using sentence embeddings, FAISS for similarity search, and a semantic cache with LRU eviction. The API is served with FastAPI, providing endpoints to query the search engine and manage the cache.
+This project implements a ***semantic search engine*** over a document corpus using sentence embeddings, FAISS for similarity search, and a semantic cache with LRU eviction. The API is served with FastAPI, providing endpoints to query the search engine and manage the cache. 
+Used 'Twenty Newsgroups' dataset. 
 
 ## Key features:
 1.Query embedding using SentenceTransformer (all-MiniLM-L6-v2)  
